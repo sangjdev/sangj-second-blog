@@ -1,0 +1,12 @@
+.content {
+  background-color: $color-secondary;
+  color: $color-base;
+  font-size: 35px;
+  text-align: center;
+  padding: 20px 0px;
+  letter-spacing: 1px;
+  a {
+    text-decoration: none;
+    color: $color-primary;
+  }
+}

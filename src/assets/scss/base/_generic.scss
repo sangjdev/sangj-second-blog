@@ -1,0 +1,25 @@
+a {
+  color: $color-primary;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  // &:hover,
+  // &:focus,
+  // &:active {
+  //     color: $typographic-link-s-font-color;
+  // }
+}
+.post-container {
+  width: 100%;
+  height: 100%;
+  padding: 5px 15px;
+  padding-top: 48px;
+  // background-color: $color-base;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  // padding: 5px 0;
+  padding-top: 48px;
+  // background-color: $color-base;
+}
