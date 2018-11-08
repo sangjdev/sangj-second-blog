@@ -1,3 +1,7 @@
-import React from 'react';
+import React from "react";
+import { graphql } from "gatsby";
+// import Layout from "../components/layout";
 
-export default () => <div>About</div>;
+export default ({ data }) => {
+  return <div>1</div>;
+};

@@ -1,0 +1,8 @@
+.Tag {
+    h3 {
+        background-color: blanchedalmond;
+        &:hover {
+            background-color: aquamarine;
+        }
+    }
+}

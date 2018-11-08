@@ -1,26 +1,22 @@
 module.exports = {
+  // styles: resolveApp("src/assets/scss"),
   siteMetadata: {
-    title: `Sangj Blog`,
+    title: `Sangj Blog`
   },
   plugins: [
-    `gatsby-plugin-sass`,
-    `gatsby-transformer-remark`,
     {
-      resolve: `gatsby-plugin-nprogress`,
+      resolve: `gatsby-plugin-sass`,
       options: {
-        color: `tomato`,
-        // Disable the loading spinner.
-        showSpinner: false,
-        trickle: false,
-        minimum: 0.4,
-      },
+        includePaths: ["src/assets/scss"]
+      }
     },
+    `gatsby-transformer-remark`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `src`,
-        path: `${__dirname}/src/pages`,
-      },
-    },
-  ],
+        path: `${__dirname}/src/pages`
+      }
+    }
+  ]
 };

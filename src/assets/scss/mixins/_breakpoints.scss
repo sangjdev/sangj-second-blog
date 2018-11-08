@@ -1,21 +1,8 @@
-@mixin breakpoint-xs {
-  @content;
-}
+@import '~include-media/dist/include-media';
 
-@mixin breakpoint-sm {
-  @media screen and (min-width: $layout-breakpoint-sm) {
-    @content;
-  }
-}
-
-@mixin breakpoint-md {
-  @media screen and (min-width: $layout-breakpoint-md) {
-    @content;
-  }
-}
-
-@mixin breakpoint-lg {
-  @media screen and (min-width: $layout-breakpoint-lg) {
-    @content;
-  }
-}
+$breakpoints: (
+  'small': 320px,
+  'medium': 768px,
+  'large': 1024px,
+  'huge': 1200px
+);

@@ -1,5 +1,5 @@
 {
-  "name": "gatsby-starter-hello-world",
+  "name": "sangj-second-blog",
   "description": "Gatsby hello world starter",
   "license": "MIT",
   "scripts": {
@@ -13,9 +13,13 @@
     "gatsby-plugin-sass": "^2.0.1",
     "gatsby-source-filesystem": "^2.0.5",
     "gatsby-transformer-remark": "^2.1.8",
+    "include-media": "^1.4.9",
+    "lodash": "^4.17.11",
+    "moment": "^2.22.2",
     "node-sass": "^4.9.4",
     "react": "^16.5.1",
     "react-dom": "^16.5.1",
-    "react-helmet": "^5.2.0"
+    "react-helmet": "^5.2.0",
+    "react-live-clock": "^2.0.3"
   }
 }

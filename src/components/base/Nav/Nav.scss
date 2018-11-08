@@ -1,0 +1,23 @@
+.Nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        li {
+            display: inline-block;
+            padding: .625rem 3px;
+            margin: 0 9px;
+            font-weight: 500;
+            font-size: .875rem;
+            &:hover {
+                border-bottom: 1px solid black;
+                // transition: all 0.3s ease-in-out;
+            }
+        }
+    }
+    
+}

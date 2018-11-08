@@ -1,0 +1,12 @@
+.MainTitle {
+    width: 200px;
+    height: 300px;
+    position: absolute;
+    bottom: 0px;
+    right: 30%;
+    border: 1px solid black;
+    border-bottom: none;
+    display: flex;
+    // align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,23 @@
+.Post {
+    h3{
+        display: inline-block;
+        margin:0;
+        padding: 0;
+    }
+    // height: 6rem;
+    border-bottom: 1px solid #efefef;
+    .post-summary {
+        margin-top: .675rem;
+        line-height: 1.4;
+    }
+    .post-caption {
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+    }
+    &:not(:last-child) {
+        margin-bottom: 3rem;
+    }
+    &:last-child {
+        border: none;
+    }
+}

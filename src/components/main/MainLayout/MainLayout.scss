@@ -1,0 +1,35 @@
+// @import '../../assets/scss/mixins';
+
+// @import '../../../assets/scss/variables';
+// @import '../../../assets/scss/mixins';
+@import 'variables';
+@import 'mixins';
+.MainLayout {
+    .main-container {
+        margin: 0 auto;
+        max-width: 1024px;
+        min-height: 90vh;
+        // background-color: #eee;
+        display: flex;
+        justify-content: center;
+        // align-items: center;
+        margin-top: 2rem;
+        .ListContainer {
+            width:60%;
+            transition: all 0.3s ease-in-out;
+            @include media('<medium') {
+                width:80%;
+            }
+            @include media('<small') {
+                width:90%;
+            }
+        }
+    }
+}
+
+// @include breakpoint-sm {
+//     .MainLayout {
+//       color : red !important;
+//     }
+//   }
+
