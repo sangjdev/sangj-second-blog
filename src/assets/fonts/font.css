@@ -1,0 +1,21 @@
+/* @font-face {
+    font-family: 'NanumMyeongjo', 'Sans-serif';
+    src: url('./NanumMyeongjo.ttf') format('truetype');
+    
+    font-weight: nomal;
+    font-style: normal;
+} */
+
+@font-face {
+    font-family: 'Spoqa Han Sans';
+    src: url('./Spoqa Han Sans Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Spoqa Han Sans';
+    src: url('./Spoqa Han Sans Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-weight: normal;
+}

@@ -3,9 +3,4 @@
 // @import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css);
 // @import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-jp.css);
 
-@font-face {
-    src: url('../../fonts/Spoqa\ Han\ Sans\ Bold.ttf') format('woff2'),
-    url('../../fonts//Spoqa\ Han\ Sans\ Regular.ttf') format('woff2');
-    font-weight: nomal;
-    font-style: normal;
-}
+@import "../fonts/font.css";
